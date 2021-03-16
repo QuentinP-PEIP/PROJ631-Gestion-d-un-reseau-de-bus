@@ -3,8 +3,8 @@ import datetime
 
 # Implémentaion de l'exemple des deux lignes de bus
 
-data_file_name_l1 = 'C:/Users/Quentin/Desktop/Cours/PROJ631/Donnees/data/1_Poisy-ParcDesGlaisins.txt'
-data_file_name_l2 = 'C:/Users/Quentin/Desktop/Cours/PROJ631/Donnees/data/2_Piscine-Patinoire_Campus.txt'
+data_file_name_l1 = 'C:/Users/Donnees/data/1_Poisy-ParcDesGlaisins.txt'
+data_file_name_l2 = 'C:/Users/Donnees/data/2_Piscine-Patinoire_Campus.txt'
 
 try:
     with open(data_file_name_l1, 'r', encoding = 'utf-8') as f:
